@@ -1,6 +1,6 @@
 import React from 'react';
 import './logo.css';
-import LogoImg from '../../images/women-force.png';
+import LogoImg from '../../assets/images/women-force.png';
 
 const Logo = () => {
   return (
