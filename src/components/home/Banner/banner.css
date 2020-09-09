@@ -1,0 +1,73 @@
+.first-background {
+  background-image: url(../../../assets/images/first-photo-banner.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.text-first-background {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-size: 3.1rem;
+}
+
+button {
+  background-color: var(--color-buttons);
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  padding: 5px 30px;
+  letter-spacing: .3rem;
+}
+
+@media(max-width: 377px) {
+  .text-first-background {
+    font-size: 2.5rem;
+  }
+}
+
+@media(min-width: 768px){
+  .first-background {
+    height: 40vh;
+  }
+
+  .text-first-background {
+    font-size: 4.9rem;
+  }
+
+  button {
+    font-size: 2.0rem;
+  }
+}
+
+@media(min-width: 1024px) {
+  .text-first-background {
+    font-size: 5.5rem ;
+  }
+}
+
+@media(min-width: 1088px) {
+  .first-background {
+    height: 70vh;
+  }
+
+  .text-first-background {
+    font-size: 5.5rem;
+  }
+
+  button {
+    font-size: 2.0rem;
+  }
+}

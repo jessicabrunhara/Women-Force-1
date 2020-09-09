@@ -1,9 +1,13 @@
 import React from 'react';
+import './assets/css/global.css'
+import Banner from './components/home/Banner'
+import Search from './components/home/Search'
 
 function App() {
   return (
     <div>
-      <h1>Women Force</h1>
+      <Banner />
+      <Search />
     </div>
   );
 }
