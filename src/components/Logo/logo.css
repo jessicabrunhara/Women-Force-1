@@ -1,0 +1,15 @@
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo-wrapper img {
+    width: 11rem;
+    height: auto;
+}
+
+@media (min-width: 500px) {
+.logo-wrapper img {
+    width: 12.6rem;
+    height: auto;
+}
+  }
