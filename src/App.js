@@ -1,19 +1,15 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import WomenForceRouter from './routes'
 import Header from './components/header/header';
 import './assets/css/global.css'
-import Banner from './components/home/Banner'
-import Search from './components/home/Search'
 
 function App() {
   return (
-    <div>
+    <div>         
       <Header />
-      <WomenForceRouter />
-      <Banner />
-      <Search />
+      <WomenForceRouter />  
     </div>
   );
 }
-
 export default App;
