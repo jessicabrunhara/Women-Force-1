@@ -14,20 +14,10 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/6272/wood-free-wooden-home.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://blog.mastertech.com.br/wp-content/uploads/2016/11/bootcamp-programacao.jpg"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-          alt="Second slide"
-        />
+    
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -37,7 +27,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="https://tieducacional.com.br/wp-content/uploads/2016/08/panorama-atual-das-mulheres-em-ti-730x330.png"
           alt="Third slide"
         />
 
