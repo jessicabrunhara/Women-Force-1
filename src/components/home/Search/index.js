@@ -11,7 +11,7 @@ export default () => {
         </div>
         <div className='search-content search-text'>
           <h1>Apoiando mulheres na tecnologia</h1>
-          <button>Resultados</button>
+          <button className='search-button'>Resultados</button>
         </div>
       </div>
     </div>

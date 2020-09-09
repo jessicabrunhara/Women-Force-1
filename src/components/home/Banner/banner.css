@@ -20,7 +20,7 @@
   font-size: 3.1rem;
 }
 
-button {
+.banner-button {
   background-color: var(--color-buttons);
   border: 1px solid transparent;
   border-radius: 9999px;
