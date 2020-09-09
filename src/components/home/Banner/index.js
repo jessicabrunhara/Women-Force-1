@@ -9,7 +9,7 @@ export default () => {
         você na tecnologia</h1>
       </div>
       <div className='content'>
-        <button>Avalie</button>
+        <button className='banner-button'>Avalie</button>
       </div>
     </div>
   )
