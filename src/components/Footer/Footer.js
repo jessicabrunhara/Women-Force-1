@@ -1,21 +1,19 @@
 import React from 'react';
 import './footer.css';
+import Logo from '../Logo/logo'
 
-const Footer = (props) => (
-  <footer className={props.className}>
-    <div>
-      <Img src={logo} alt="logo" className="logo" />
+
+const Footer = () => (
+  <footer className = 'footer'>
+    <div ClassName = 'logo'>
+      <Logo/>
     </div>
-    <div>
-      <h3>Desenvolvido por</h3>
+    <div className = 'description'>
+    <h3>Desenvolvido por</h3>
       <p>Evellyn Thamires</p>
       <p>Jessica Brunhara</p>
       <p>Jucilene Barros</p>
       <p>Milena Ferraz</p>
-    </div>
-    <div>
-      <h3>Bootcamp</h3>
-      <h3>Meetups</h3>
     </div>
   </footer>
 );
