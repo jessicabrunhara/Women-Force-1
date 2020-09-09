@@ -9,15 +9,16 @@ import Search from './components/home/Search'
 
 function App() {
   return (
-    <div>
-         
+    <div>         
       <Header />
       <WomenForceRouter />
       <Banner />
       <section className="search">
       <Search />
       </section>
+      <section className="carousel">
       <ControlledCarousel />
+      </section>
     </div>
   );
 }
