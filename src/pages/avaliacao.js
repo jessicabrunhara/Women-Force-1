@@ -5,8 +5,9 @@ const Avaliacao = () => {
 
   return (
     <div className='avaliation-wrapper'>
-      <FormAvaliar></FormAvaliar>
+      <FormAvaliar />
     </div>
   )
 }
+  
 export default Avaliacao;

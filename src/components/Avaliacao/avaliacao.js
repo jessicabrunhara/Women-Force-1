@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import firebase from '../../plugins/firebase'
 import Input from '../input/input';
 import './avaliacao.css';
 
@@ -16,6 +17,44 @@ const FormAvaliar = () => {
   const [comment, setComment] = useState('');
   const [geral, setGeral] = useState('');
   const [setor, setSector] = useState('');
+
+  const sendAvaliation = () => {
+    if (!company || !career || !benefits || !inclusive || !acessibility || !safePlace || !channel || !maternity || !recomendation || !geral || !setor) {
+      console.log('Preencha todos os campos')
+    } else {
+      const avaliation = firebase.firestore().collection('avaliations')
+      avaliation.doc().set({
+        company,
+        career,
+        benefits,
+        inclusive,
+        acessibility,
+        safePlace,
+        channel,
+        maternity,
+        recomendation,
+        comment,
+        geral,
+        setor
+      }).then(() => {
+        console.log('Enviado')
+        setCompany("");
+        setCareer("");
+        setBenefits("");
+        setInclusive("");
+        setAcessibility("");
+        setSafePlace("");
+        setChannel("");
+        setMaternity("");
+        setRecomendation("");
+        setComment("");
+        setGeral("");
+        setSector("");
+      }).catch((error) => {
+        console.log(error)
+      })
+    }
+  };
 
   return (
     <form className='form-wrapper'>
@@ -36,7 +75,7 @@ const FormAvaliar = () => {
         <div className='input-radio-wrapper'>
           <Input className='input-radio' name='career' type='radio' value='sim' onChange={(e) => setCareer(e.target.value)}></Input>
           <label >Sim</label>
-          <Input className='input-radio' name='career' type='radio' value='não' onChange={(e) => setCareer(e.target.value)}></Input>
+          <Input className='input-radio' name='career' type='radio' value='nao' onChange={(e) => setCareer(e.target.value)}></Input>
           <label>Não</label>
         </div>
       </div>
@@ -151,7 +190,7 @@ const FormAvaliar = () => {
       </div>
 
       <div className='btn-wrapper'>
-        <button type='button' className='btn-style' children={'Enviar'}></button>
+        <button type='button' className='btn-style' children={'Enviar'} onClick={sendAvaliation}></button>
       </div>
     </form >
   )
