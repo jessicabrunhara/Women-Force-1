@@ -6,11 +6,11 @@
   border-radius: 20px;
   margin: 15px 10px;
   padding: 10px 15px 15px 10px;
-  height: 79rem;
+  height: 83rem;
   width: 90%;
   font-size: 11px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: whitesmoke;
+  background-color: rgb(250, 250, 250);
   box-shadow: 0px 0px 8px rgb(90, 77, 77);
   font-weight: 500;
 }
@@ -19,8 +19,9 @@
   display: flex;
   font-size: 15px;
   align-items: baseline;
-  margin: 20px 0px;
+  margin-top: 10px;
 }
+
 
 input[type=radio] {
   width: 6%;
@@ -101,8 +102,20 @@ input[type=radio] {
 .input-select-wrapper{
   display: flex;
   align-items: center;
+
+}
+.input-text-wrapper label{
+  width: 65px;
+}
+.company-sector-wrapper{
+  margin: 5px;
 }
 
+.select{
+  width: 100px;
+  height: 25px;
+  margin: 0px 10px;
+}
 
 @media(min-width: 375px) {
   .form-wrapper{
@@ -115,6 +128,17 @@ input[type=radio] {
   .form-wrapper{
     padding-left: 20px;
   }
+  .btn-style{
+    width: 65%;
+  }
+  .input-comment-text{
+    width: 27rem;
+    height: 6rem;
+  }
+  .select{
+    width: 100px;
+    height: 30px;
+  }  
 
 }
 
@@ -123,27 +147,39 @@ input[type=radio] {
     padding: 20px 15px 15px 30px;
     width: 60%;
     font-size: 12px;
-    height: 83rem;
+    height: 87rem;
   }
+  .btn-style{
+    width: 45%;
+  }
+  .select{
+    height: 35px;
+  }  
+  .input-comment-text{
+    width: 33rem;
+    height: 7rem;
+  }
+
 }
 
 @media(min-width: 1024px) {
   .form-wrapper{
     font-size: 14px;
-    height: 88rem;
+    height: 93rem;
   }
+  .btn-style{
+    width: 40%;
+  }
+  .select{
+    height: 35px;
+  }  
   
 }
 
 @media(min-width: 1088px) {
   .form-wrapper{
     font-size: 14px;
-
-    width: 40%;
-
-
+    width: 50%;
   }
   
-
-
 }
