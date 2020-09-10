@@ -7,12 +7,13 @@ const Home = () => {
 
     return (
     <div>
-        <Banner />
+      <Banner />
       <section className="search">
       <Search />
       </section>
       <section className="carousel">
       <ControlledCarousel />
+     
       </section>
     </div>
     )
