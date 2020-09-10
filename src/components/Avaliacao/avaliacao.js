@@ -32,7 +32,7 @@ const FormAvaliar = () => {
       </div>
 
       <div className='input-wrapper'>
-        <p>Possui plano de Carreira?</p>
+        <p>Possui plano de carreira?</p>
         <div className='input-radio-wrapper'>
           <Input className='input-radio' name='career' type='radio' value='sim' onChange={(e) => setCareer(e.target.value)}></Input>
           <label >Sim</label>
