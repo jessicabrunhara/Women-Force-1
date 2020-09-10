@@ -1,15 +1,39 @@
 :root {
   --color-buttons: #FF660F;
-    font-size: 60%;
+  font-size: 60%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .search {
   margin: 20px 0;
 }
 
+.container-ranking {
+  max-width: 80%;
+  margin: 20px auto;
+  font-family: Roboto;
+}
+
+.container-descricao {
+  align-items: center;
+  text-align: center;
+}
+
+@media(min-width: 768px) {
+  .container-ranking {
+    max-width: 60%;
+
+  }
+}
+
+@media(min-width: 1024px) {
+  .container-ranking {
+    max-width: 40%;
+
+  }
+}
