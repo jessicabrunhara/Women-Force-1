@@ -33,11 +33,6 @@
   margin-top:5px;
 }
 
-/* .black-banner h6{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.1rem;
-} */
-
 @media (min-width: 500px) {
   .blue-banner{
   justify-content: start;

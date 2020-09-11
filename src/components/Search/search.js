@@ -9,11 +9,8 @@ export default () => {
       <div className="second-background">
         <div className="content">
           <h1 className="text-second-background">
-          Veja as avaliações das empresas
-          </h1>
-          {/* <h2 className="text-second-background-h1">
             Veja as avaliações das empresas
-          </h2> */}
+          </h1>
         </div>
         <div className="content">
           <Button>
@@ -22,5 +19,5 @@ export default () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
