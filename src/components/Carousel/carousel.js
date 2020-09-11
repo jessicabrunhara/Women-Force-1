@@ -14,18 +14,18 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100 "
-          src="https://tieducacional.com.br/wp-content/uploads/2016/08/panorama-atual-das-mulheres-em-ti-730x330.png"
+          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Ffundo-cinza&psig=AOvVaw1dTLz3-k6G92wOfEJYHMum&ust=1599875905985000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC23p2B4OsCFQAAAAAdAAAAABAD"
           alt="Third slide"
         />       
       </Carousel.Item>
 
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <img
           className="d-block w-100 "
           src="https://tieducacional.com.br/wp-content/uploads/2017/03/profissional-ti-importancia-atualizado-730x330.png"
           alt="First slide"
         />
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
   }

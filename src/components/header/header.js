@@ -1,5 +1,5 @@
 import React from 'react';
-import '../header/header.css'
+import './header.css'
 import Logo from '../Logo/logo';
 
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className='header-wrapper'>
       <div className='black-banner'>
-        <p>Black Lives Matter</p>
+        <h6 className='text-banner'>Black Lives Matter</h6>
       </div>
       <div className='blue-banner'>
         <Logo />

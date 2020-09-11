@@ -2,11 +2,11 @@ import React from 'react';
 import './logo.css';
 import LogoImg from '../../assets/images/women-force.png';
 
-const Logo = () => {
+const Logo = (props) => {
   return (
-    <figure className='logo-wrapper'>
+    <div  className='logo-wrapper'>
       <img alt='logo Women Force' src={LogoImg} />
-    </figure>
+    </div>
   )
 }
 
