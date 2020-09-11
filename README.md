@@ -20,10 +20,6 @@ Link para a aplicação: https://women-force-f7eaf.web.app/
 
 <br>
 
-
-
-<br>
-
 ## 1. Desafio CI&T
 Construir um MVP de um Produto Digital para engajar as mulheres na tecnologia. 
 <br>
