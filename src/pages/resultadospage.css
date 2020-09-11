@@ -1,0 +1,19 @@
+.page-description {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 5px;
+  font-weight: 600;
+}
+
+.page-description  p{
+  margin: 0;
+
+}
+
+
+
+
+
