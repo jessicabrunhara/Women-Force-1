@@ -3,13 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import WomenForceRouter from './routes'
 import Header from './components/header/header';
 import Footer from './components/Footer/Footer.js'
-import './assets/css/global.css'
 
 function App() {
   return (
-    <div>         
+    <div>
       <Header />
-      <WomenForceRouter /> 
+      <WomenForceRouter />
       <Footer />
     </div>
   );
