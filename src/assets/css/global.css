@@ -27,13 +27,29 @@
 @media(min-width: 768px) {
   .container-ranking {
     max-width: 60%;
-
+  }
+  .container-descricao h3{
+    font-size: 20px;
+  }
+  .container-descricao h6{
+    font-size: 14px;
+    
   }
 }
 
 @media(min-width: 1024px) {
   .container-ranking {
-    max-width: 40%;
-
+    max-width: 50%;
+    font-size: 16px;
+  }
+  .container-descricao {
+    margin-bottom: 20px;
+  }
+  .container-descricao h3{
+    font-size: 30px;
+  }
+  .container-descricao h6{
+    font-size: 20px;
+    
   }
 }
