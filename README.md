@@ -31,7 +31,7 @@ Construir um MVP de um Produto Digital para engajar as mulheres na tecnologia.
 * Linguagem inclusiva
 
 ## 2. Montagem do Ambiente
-Neste projeto foi utilizado ReactJS, Firebase, ReactBootstrap.
+A linguagem neste projeto foi deixada á nossa escolha, assim decidimos utilizar ReactJS, Firebase, ReactBootstrap.
 
 ## 3. Solução
 Realizamos uma plataforma destinada a ajudar as mulheres a identificarem empresas na área de tecnologia que possuam ambiente inclusivo e seguro.
