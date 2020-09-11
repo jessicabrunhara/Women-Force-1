@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import firebase from '../plugins/firebase'
-import { Card } from 'react-bootstrap'
 
 const Resultados = () => {
   const [recomendation, setRecomendation] = useState([])
@@ -20,29 +19,37 @@ const Resultados = () => {
   
   return (
     <>
-      <h2>Recomendações</h2>
-      <ul>
-        <Card>
-          {recomendation.map((i, index) => {
-            return (
-              <li key={index}>
-                <Card.Header>
-                  Empresa
-                </Card.Header>
-                <Card.Body>
-                <Card.Text>
-                  <p>
-                  Nome: {i.name}
-                  <br /> 
-                  Primeira pergunta: {i.firstQuestion}
-                  </p>
-                </Card.Text>
-                </Card.Body>
-              </li>
+      {recomendation.map((i, index) => {
+        return (
+        <li key={index}>
+        Empresa {i.company}
+        <br />
+        Setor: {i.setor}
+        <br />
+        Possui plano de carreira: {i.career}
+        <br />
+        Benefícios: {i.benefits}
+        <br />
+        Ambiente inclusivo: {i.inclusive}
+        <br />
+        Ambiente com acessibilidade: {i.acessibility}
+        <br />
+        Ambiente seguro para mulheres: {i.safePlace}
+        <br />
+        Possui canal para denunciar assédio? : {i.channel}
+        <br />
+        Apoio maternidade/paternidade: {i.maternity}
+        <br />
+        Recomenda a empresa? : {i.recomendation}
+        <br />
+        Nota geral : {i.geral}
+        <br />
+        Quer deixar algum comentário sobre a empresa? : {i.comment}
+        <br />
+
+        </li>
             );
-          })}
-        </Card>
-      </ul>
+        })}
     </>
   )
 }

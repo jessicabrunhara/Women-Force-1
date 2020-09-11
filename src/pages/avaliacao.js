@@ -2,12 +2,12 @@ import React from 'react';
 import FormAvaliar from '../components/Avaliacao/avaliacao'
 
 
-function Avaliacao () {
+const Avaliacao = () => {
+
   return (
     <div className='avaliation-wrapper'>
-      <FormAvaliar></FormAvaliar>
+      <FormAvaliar />
     </div>
-
   )
-  }
+
 export default Avaliacao;
