@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import firebase from '../../plugins/firebase'
 import Input from '../input/input';
 import './avaliacao.css';
+import growl from 'growl-alert';
+import 'growl-alert/dist/growl-alert.css';
 
 const FormAvaliar = () => {
 
@@ -20,7 +22,7 @@ const FormAvaliar = () => {
 
   const sendAvaliation = () => {
     if (!company || !career || !benefits || !inclusive || !acessibility || !safePlace || !channel || !maternity || !recomendation || !geral || !setor) {
-      console.log('Preencha todos os campos')
+      growl({ text: 'Por favor, preencha todos os campos.', type: 'warning', fadeAway: true, fadeAwayTimeout: 2000 });
     } else {
       const avaliation = firebase.firestore().collection('avaliations')
       avaliation.doc().set({
@@ -37,7 +39,7 @@ const FormAvaliar = () => {
         geral,
         setor
       }).then(() => {
-        console.log('Enviado')
+        growl({ text: 'Avaliação enviada!', type: 'sucess', fadeAway: true, fadeAwayTimeout: 2000 });
         setCompany("");
         setCareer("");
         setBenefits("");
@@ -51,7 +53,7 @@ const FormAvaliar = () => {
         setGeral("");
         setSector("");
       }).catch((error) => {
-        console.log(error)
+        growl({ text: error, type: 'warning', fadeAway: true, fadeAwayTimeout: 2000 });
       })
     }
   };
