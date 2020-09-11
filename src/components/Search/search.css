@@ -47,10 +47,6 @@
 }
 
 @media (min-width: 768px) {
-  .first-background {
-    height: 40vh;
-  }
-
   .text-second-background {
     font-size: 3.9rem;
   }

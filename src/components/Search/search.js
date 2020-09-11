@@ -14,7 +14,7 @@ export default () => {
         </div>
         <div className="content">
           <Button>
-            <Link to="/resultado">Resultados</Link>
+            <Link to="/resultados">Resultados</Link>
           </Button>
         </div>
       </div>
