@@ -1,0 +1,82 @@
+.search-background {
+  display: flex;
+  width: 100%;
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+.second-background {
+  background-image: url(../../assets/images/second-photo-banner.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 30vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.text-second-background {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-size: 3.1rem;
+  text-align: center;
+}
+
+@media (max-width: 377px) {
+  .text-second-background {
+    font-size: 1.9rem;
+    margin-top: 40px;
+  }
+
+  .content h1{
+    padding-bottom: 10px;
+  }
+
+  .search-background {
+    background-color: var(--background-color);
+    padding: 10px;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .first-background {
+    height: 40vh;
+  }
+
+  .text-second-background {
+    font-size: 3.9rem;
+  }
+
+  .button {
+    font-size: 2.9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-second-background {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+  .second-background {
+    height: 70vh;
+  }
+
+  .text-second-background {
+    font-size: 5.5rem;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+}
+

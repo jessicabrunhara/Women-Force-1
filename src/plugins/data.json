@@ -1,0 +1,53 @@
+{
+  "gptw": [{
+    "posição":"1",
+    "empresa":"Dell EMC",
+    "funcionarios":"3629"
+  },
+  {
+    "posição":"2",
+    "empresa":"SAP Labs Latin America",
+    "funcionarios":"1175"
+  },
+  {
+    "posição":"3",
+    "empresa":"SAP Brasil",
+    "funcionarios":"1051"
+  },
+  {
+    "posição":"4",
+    "empresa":"CI&T",
+    "funcionarios":"2079"
+  },
+  {
+    "posição":"5",
+    "empresa":"Vivo",
+    "funcionarios":"32238"
+  },
+  {
+    "posição":"6",
+    "empresa":"Oracle do Brasil",
+    "funcionarios":"1746"
+  },
+  {
+    "posição":"7",
+    "empresa":"Logicalis",
+    "funcionarios":"1007"
+  },
+  {
+    "posição":"8",
+    "empresa":"INTELBRAS",
+    "funcionarios":"2051"
+  },
+  {
+    "posição":"9",
+    "empresa":"Mercado Livre",
+    "funcionarios":"1991"
+  },
+  {
+    "posição":"10",
+    "empresa":"Getnet",
+    "funcionarios":"1075"
+  }
+  ]
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import Logo from '../Logo/logo';
+import Logo from '../components/Logo/logo';
 
 export default () => {
 	return (

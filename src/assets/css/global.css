@@ -1,6 +1,8 @@
 :root {
   --color-buttons: #FF660F;
-  font-size: 60%;
+  --primary-color: #131950;
+  --background-color:#e8e4e4;
+    font-size: 60%;
 }
 
 * {

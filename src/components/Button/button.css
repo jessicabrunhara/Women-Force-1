@@ -1,0 +1,68 @@
+.button {
+  background-color: var(--color-buttons);
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 30px;
+  letter-spacing: 0.3rem;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: hsl(22, 77%, 44%);
+  font-weight: bolder;
+  opacity: initial;
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 377px) {
+  .text-first-background {
+    font-size: 2rem;
+  }
+
+  .button {
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    
+  }
+}
+
+@media (min-width: 768px) {
+  .first-background {
+    height: 40vh;
+  }
+
+  .text-first-background {
+    font-size: 4.9rem;
+  }
+
+  .button {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-first-background {
+    font-size: 5.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+  .first-background {
+    height: 70vh;
+  }
+
+  .text-first-background {
+    font-size: 5.5rem;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+}

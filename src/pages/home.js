@@ -1,7 +1,7 @@
 import React from 'react';
-import Banner from '../components/home/Banner'
-import Search from '../components/home/Search'
-import ControlledCarousel from '../Carousel.js';
+import Banner from '../components/Banner/banner.js'
+import Search from '../components/Search/search.js'
+import Jumbotron from '../components/About/about.js'
 
 const Home = () => {
 
@@ -11,10 +11,9 @@ const Home = () => {
       <section className="search">
       <Search />
       </section>
-      <section className="carousel">
-      <ControlledCarousel />
-     
-      </section>
+      <div className="carousel">
+        <Jumbotron/>
+      </div>
     </div>
     )
 }

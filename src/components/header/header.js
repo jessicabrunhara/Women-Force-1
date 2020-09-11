@@ -1,12 +1,12 @@
 import React from 'react';
-import '../header/header.css'
-import Navbar from '../home/Navbar.js'
+import '../Header/header.css'
+import Navbar from '../Navbar.js'
 
 const Header = () => {
   return (
     <header className='header-wrapper'>
       <div className='black-banner'>
-        <p>Black Lives Matter</p>
+        <p className='text-black-lives-matter'>Black Lives Matter</p>
       </div>   
       <div className="menu">
         <Navbar />
