@@ -45,7 +45,7 @@ Construir um MVP de um Produto Digital para engajar as mulheres na tecnologia.
 
 ## 2. Montagem do Ambiente
 ****
-Neste projeto foi utilizado **ReactJS**, **Firebase**, **ReactBootstrap**.
+A linguagem neste projeto foi deixada á nossa escolha, assim decidimos utilizar **ReactJS**, **Hooks**, **Firebase**, **ReactBootstrap**.
 
 </br>
 
