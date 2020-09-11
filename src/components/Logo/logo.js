@@ -4,9 +4,9 @@ import LogoImg from '../../assets/images/women-force.png';
 
 const Logo = () => {
   return (
-    <figure className='logo-wrapper'>
+    <div className='logo-wrapper'>
       <img alt='logo Women Force' src={LogoImg} />
-    </figure>
+    </div>
   )
 }
 
