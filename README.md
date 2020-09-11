@@ -21,6 +21,8 @@ Projeto desenvolvido na Laboratória nos dias 08 á 11 de Setembro.
 
 ## 1. Desafio CI&T
 ****
+
+
 Construir um MVP de um Produto Digital para engajar as mulheres na tecnologia. 
 
 </br>
