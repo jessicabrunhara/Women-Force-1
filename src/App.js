@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WomenForceRouter from './routes'
 import Header from './components/Header/header.js';
-import Footer from './components/Footer/footer.js'
+import Footer from './components/Footer/Footer.js'
 import './assets/css/global.css'
 
 function App() {

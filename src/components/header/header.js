@@ -1,17 +1,16 @@
 import React from 'react';
-import './header.css'
-import Logo from '../Logo/logo';
-
+import '../Header/header.css'
+import Navbar from '../Navbar.js'
 
 const Header = () => {
   return (
     <header className='header-wrapper'>
       <div className='black-banner'>
-        <h6 className='text-banner'>Black Lives Matter</h6>
-      </div>
-      <div className='blue-banner'>
-        <Logo />
-      </div>
+        <p>Black Lives Matter</p>
+      </div>   
+      <div className="menu">
+        <Navbar />
+      </div>  
     </header>
   )
 }

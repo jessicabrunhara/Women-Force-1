@@ -7,7 +7,7 @@ const Home = () => {
 
     return (
     <div>
-        <Banner />
+      <Banner />
       <section className="search">
       <Search />
       </section>

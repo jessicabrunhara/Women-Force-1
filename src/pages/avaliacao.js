@@ -1,11 +1,12 @@
 import React from 'react';
+import FormAvaliar from '../components/Avaliacao/avaliacao'
 
 const Avaliacao = () => {
-
   return (
-    <div>
-      <h1>Avalie uma empresa</h1>
+    <div className='avaliation-wrapper'>
+      <FormAvaliar />
     </div>
   )
 }
+
 export default Avaliacao;
