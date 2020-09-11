@@ -8,6 +8,7 @@ const Avaliacao = () => {
       <FormAvaliar />
     </div>
   )
+
 }
 
 export default Avaliacao;

@@ -8,7 +8,8 @@
 }
 
 .navbar-toggler {
-  background-color: rgb(37, 37, 114)
+  background-color: var(--color-buttons)
+
   ;
 }
 .nav-bar {
