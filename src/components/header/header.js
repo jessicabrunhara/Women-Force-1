@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Header/header.css'
+import '../header/header.css'
 import Navbar from '../Navbar.js'
 
 const Header = () => {
@@ -7,10 +7,10 @@ const Header = () => {
     <header className='header-wrapper'>
       <div className='black-banner'>
         <p className='text-black-lives-matter'>Black Lives Matter</p>
-      </div>   
+      </div>
       <div className="menu">
         <Navbar />
-      </div>  
+      </div>
     </header>
   )
 }
