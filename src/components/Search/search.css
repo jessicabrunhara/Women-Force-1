@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .content {
@@ -29,26 +29,21 @@
   text-align: center;
 }
 
-/* .banner-button {
-  background-color: var(--color-buttons);
-  border: 1px solid transparent;
-  border-radius: 9999px;
-  color: white;
-  font-size: 1.1rem;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 10px;
-  padding: 5px 30px;
-  letter-spacing: .3rem;
-} */
-
 @media (max-width: 377px) {
   .text-second-background {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
+    margin-top: 40px;
   }
 
   .content h1{
     padding-bottom: 10px;
   }
+
+  .search-background {
+    background-color: var(--background-color);
+    padding: 10px;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -57,7 +52,7 @@
   }
 
   .text-second-background {
-    font-size: 4.9rem;
+    font-size: 3.9rem;
   }
 
   .button {
@@ -67,7 +62,7 @@
 
 @media (min-width: 1024px) {
   .text-second-background {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
 }
 

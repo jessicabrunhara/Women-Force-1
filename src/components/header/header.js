@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className='header-wrapper'>
       <div className='black-banner'>
-        <p>Black Lives Matter</p>
+        <p className='text-black-lives-matter'>Black Lives Matter</p>
       </div>   
       <div className="menu">
         <Navbar />
