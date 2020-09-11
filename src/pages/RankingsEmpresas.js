@@ -12,4 +12,5 @@ const Avaliacao = () => {
   </div>
   )
 }
+
 export default Avaliacao;

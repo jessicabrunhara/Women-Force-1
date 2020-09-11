@@ -1,69 +1,116 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Laboratória - 4ª Geração :two_hearts: 
+![](./src/assets/images/capa.png)
 
-## Available Scripts
+Projeto desenvolvido na Laboratória nos dias 08 á 11 de Setembro.
+<br>
 
-In the project directory, you can run:
+### Link para a aplicação: https://women-force-f7eaf.web.app/
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Índice
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+****
 
-### `yarn test`
+* [1. Desafio](#1-desafio)
+* [2. Montagem do ambiente](#2-montagem-do-ambiente)
+* [3. Solução](#3-solucao)
+* [4. Prototipação](#4-prototipacao)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `yarn build`
+## 1. Desafio CI&T
+****
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Construir um MVP de um Produto Digital para engajar as mulheres na tecnologia. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</br>
 
-### `yarn eject`
+<p align="center">
+<img src='https://media.giphy.com/media/S9zM7OMKla4lyDGyPW/giphy.gif' width="200" heigth="200"> 
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Desejável:
+****
+* Código disponível no GitHub ou no GitLab
+* Acessibilidade
+* Mobile First
+* Responsivo
+* Linguagem inclusiva
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+</br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 2. Montagem do Ambiente
+****
+A linguagem neste projeto foi deixada á nossa escolha, assim decidimos utilizar **ReactJS**, **Hooks**, **Firebase**, **ReactBootstrap**.
 
-## Learn More
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 3. Solução
+****
+Realizamos uma plataforma destinada a ajudar as mulheres a identificarem empresas na área de tecnologia que possuam ambiente inclusivo e seguro.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</br>
 
-### Code Splitting
+## 4. Prototipação
+****
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+O protótipo foi realizado pelo Figma. 
 
-### Making a Progressive Web App
+</br>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![](src/assets/images/prototipo_women_force.png)
 
-### Advanced Configuration
+</br>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### :warning: Pré-Requisitos:
+****
 
-### Deployment
+1. Node.js e NPM instalado
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+</br>
 
-### `yarn build` fails to minify
+### 🚀 Rodando o projeto localmente
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# Women-Force" 
+****
+
+</br>
+
+1. Clone o projeto na sua máquina
+
+```sh
+git clone https://github.com/EvellynThamires/Women-Force.git
+```
+
+2. Acesse a pasta do projeto
+ 
+```sh
+cd Women-Force
+```
+
+3. Instale todas as dependências do projeto
+
+```sh
+npm install
+```
+
+4. Rode o projeto na sua máquina
+
+```sh
+npm start
+```
+
+5. Abra o navegador e visualize o projeto
+
+```sh
+http://localhost:3000
+```
+
+---------------------------------------------------
+
+Desenvolvido por **Evellyn Uyemura**, **Jessica Brunhara**, **Jucilene Barros**, **Milena Ferraz**.

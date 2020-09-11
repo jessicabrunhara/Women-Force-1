@@ -22,13 +22,14 @@
   margin-top: 10px;
 }
 
-
 input[type=radio] {
   width: 6%;
 }
 
 .avaliation-wrapper{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -115,6 +116,10 @@ input[type=radio] {
   width: 100px;
   height: 25px;
   margin: 0px 10px;
+}
+
+.title-avaliation {
+  margin-top: 15px !important;
 }
 
 @media(min-width: 375px) {
